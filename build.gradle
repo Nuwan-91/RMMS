@@ -1,0 +1,16 @@
+group 'io.egreen.rmms'
+version '1.0-SNAPSHOT'
+
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    compile 'io.egreen.apistudio:bootstrap:0.1'
+    compile 'io.egreen.apistudio:mongo-datalayer:0.0.8'
+}
